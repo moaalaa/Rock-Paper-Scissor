@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rock - Paper - Scissor</title>
+    
+    <!-- Fonts -->
+    <link rel="stylesheet" href="./css/all.min.css">
+
+    <!-- Style -->
+    <link rel="stylesheet" href="./css/app.css">
+    <link rel="stylesheet" href="./css/modal.css">
+</head>
+<body>
+    
+
+    <div class="container">
+        <header class="header">
+            <h1>Rock - Paper - Scissor</h1>
+            <button id="restart-game" class="restart-btn">Restart Game</button>
+            <div id="score" class="score">
+                <p>Player: 0</p>
+                <p>Machine: 0</p>
+            </div>
+        </header>
+
+        <h2>Choose Your Weapon!</h2>
+
+        <div class="choices">
+            <i id="rock" class="choice fas fa-hand-rock fa-10x"></i>
+            <i id="paper" class="choice fas fa-hand-paper fa-10x"></i>
+            <i id="scissors" class="choice fas fa-hand-scissors fa-10x"></i>
+        </div>
+
+    </div>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div id="result" class="modal-content"></div>
+    </div>
+
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
